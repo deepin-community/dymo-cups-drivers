@@ -1,0 +1,21 @@
+From: Florian Knodt <adlerweb@adlerweb.info>
+Date: Fri, 28 Feb 2020 23:26:34 +0100
+Subject: Backport "Add missing backend header"
+
+---
+ src/common/CupsPrintEnvironment.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/common/CupsPrintEnvironment.h b/src/common/CupsPrintEnvironment.h
+index 7dadb0f..5ec4cac 100644
+--- a/src/common/CupsPrintEnvironment.h
++++ b/src/common/CupsPrintEnvironment.h
+@@ -21,6 +21,8 @@
+ #ifndef h952b1c81_8931_433a_8479_7ae6d8e85a86
+ #define h952b1c81_8931_433a_8479_7ae6d8e85a86
+ 
++#include <cups/backend.h>
++#include <cups/sidechannel.h>
+ #include "PrinterDriver.h"
+ 
+ namespace DymoPrinterDriver
