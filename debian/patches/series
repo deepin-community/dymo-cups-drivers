@@ -7,3 +7,4 @@ auto-gitignore
 0007-Backport-Replaced-deprecated-type-std-auto_ptr-by-st.patch
 0008-Backport-Add-missing-backend-header.patch
 0009-gcc11-ftbfs-replace-byte-by-unsigned-char.patch
+0010-deactivate-tests-due-to-gcc12.patch

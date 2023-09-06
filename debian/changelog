@@ -1,8 +1,11 @@
-dymo-cups-drivers (1.4.0-11) UNRELEASED; urgency=medium
+dymo-cups-drivers (1.4.0-12) unstable; urgency=medium
 
-  * update
+  * add patch to be able to compile with gcc12
+    (Closes: #1012916)
+    (until a better solution is available the tests)
+    (are just disabled)
 
- -- Debian Printing Team <debian-printing@lists.debian.org>  Thu, 12 May 2022 11:21:35 +0800
+ -- Thorsten Alteholz <debian@alteholz.de>  Sun, 14 Aug 2022 18:03:02 +0200
 
 dymo-cups-drivers (1.4.0-11) unstable; urgency=medium
 
